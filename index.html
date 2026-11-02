@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yogita Sehrawat | C# Practical File</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">C#</span>
+      <div><strong>C# Practical File</strong><small>BCA Semester V</small></div>
+    </div>
+    <span class="top-note">Core C# programs · Source code &amp; output</span>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <a class="home-link" href="#top">HOME</a>
+      <h2>TOPICS</h2>
+      <label class="search-wrap"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="Search programs..." autocomplete="off"></label>
+      <div id="categoryList" class="category-list"></div>
+      <div class="sidebar-note"><strong>Yogita Sehrawat</strong><span>BCA Semester V</span><span>Roll No. 7039/24</span></div>
+    </aside>
+
+    <section class="content" id="top">
+      <section class="hero">
+        <div class="hero-title"><div class="hero-mark">C#</div><div><h1>C# Practical Programs</h1><p>Source code and sample output for Core C# programs.</p></div></div>
+        <div class="student-details">
+          <div><span>Name</span><strong>Yogita Sehrawat</strong></div>
+          <div><span>Class</span><strong>BCA Semester V</strong></div>
+          <div><span>Roll No.</span><strong>7039/24</strong></div>
+        </div>
+      </section>
+
+      <div class="section-title"><div><p class="eyebrow">PRACTICAL FILE</p><h2 id="listHeading">All Programs</h2></div><span id="resultLabel">40 results</span></div>
+      <div id="programGrid" class="program-grid"></div>
+      <div id="emptyState" class="empty-state hidden">No programs found. Try another search.</div>
+
+      <section id="detailPanel" class="detail-panel hidden">
+        <div class="detail-top"><div><span id="detailNumber" class="program-number">PROGRAM 01</span><h2 id="detailTitle">Program Title</h2><p id="detailAim" class="detail-aim"></p></div><button id="closeDetail" class="secondary-button">Close ×</button></div>
+        <h3>Source Code</h3><div class="code-panel"><pre><code id="codeText"></code></pre></div><button id="copyCode" class="primary-button">Copy Code</button>
+        <h3>Sample Output</h3><div class="output-panel"><pre id="outputText"></pre></div>
+        <div class="explanation"><strong>Explanation</strong><p id="detailExplanation"></p></div>
+        <div class="detail-actions"><button id="prevProgram" class="secondary-button">← Previous</button><button id="nextProgram" class="primary-button">Next →</button></div>
+      </section>
+      <footer><span>C# Practical File · BCA Semester V</span><span>Prepared by Yogita Sehrawat</span></footer>
+    </section>
+  </main>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="programs.js"></script><script src="app.js"></script>
+</body>
+</html>
